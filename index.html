@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-auto barra-lateral">
+                <div class="logo">
+                    <h2>Dashboard</h2>
+                </div>
+                <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+                        <a href="#"><i class="fas fa-home"></i><span>Inicio</span></a>
+                        <a href="#"><i class="fas fa-file-signature"></i><span>Entrada</span></a>
+                        <a href="#"><i class="fas fa-user"></i><span>Usuario</span></a>
+                        <a href="#"><i class="fas fa-cog"></i><span>Configuracion</span></a>
+                        <a href="#"><i class="fas fa-sign-out-alt"></i><span>Salir</span></a>
+                    </nav>
+            </div>
+            <main class="main col">
+                    <section>
+                        <div class="row">
+                            <div class="columna col-lg-7">
+                                <div class="widget nueva_entrada">
+                                    <h3 class="titulo">Nueva Entrada</h3>
+                                    <form action="">
+                                        <input type="text" class="form-control" placeholder="Titulo de la entrada">
+                                        <textarea placeholder="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni aspernatur veritatis provident assumenda, quod eum quaerat et" class="form-control" ></textarea>
+                                        <div class="d-flex justify-content-end">
+                                            <button class="btn btn-primary">
+                                                    <i class="fas fa-share-square"></i> Enviar
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="columna col-lg-5">
+                                <div class="widget estadistica">
+                                    <h3 class="titulo">Estadistica</h3>
+                                    <div class="contenedor d-flex flex-wrap">
+                                        <div class="caja">
+                                            <h4>15.236</h4>
+                                            <p>Visitas</p>
+                                        </div>
+                                         <div class="caja">
+                                            <h4>1.830</h4>
+                                            <p>Registros</p>
+                                        </div>
+                                         <div class="caja">
+                                            <h4>$180.000</h4>
+                                            <p>Ingresos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget comentarios">
+                                    <h3 class="titulo">Comentarios</h3>
+                                    <div class="contendero">
+                                        <div class="comentario d-flex flex-wrap">
+                                            <div class="foto">
+                                                <a href="#">
+                                                    <figure>
+                                                        <img src="img/persona1.jpg" width="100" alt="">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="texto">
+                                                <a href="#">Johann Pino</a>
+                                                <p>en <a href="#">Mi primer entrada</a></p>
+                                                <p class="texto-comentario">
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, provident quidem voluptas perferendis neque blanditiis eligendi facilis.
+                                                </p>
+                                            </div>
+                                            <div class="botones d-flex justify content-start flex-wrap w-100">
+                                                <button class="btn btn-success">Aprobar</button>
+                                                <button class="btn btn-danger">Eliminar</button>
+                                                <button class="btn btn-secondary">Bloquear Usuario</button>
+                                            </div>
+                                        </div>
+                                        <div class="comentario d-flex flex-wrap">
+                                                <div class="foto">
+                                                    <a href="#">
+                                                        <figure>
+                                                            <img src="img/persona1.jpg" width="100" alt="">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                                <div class="texto">
+                                                    <a href="#">Johann Pino</a>
+                                                    <p>en <a href="#">Mi primer entrada</a></p>
+                                                    <p class="texto-comentario">
+                                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, provident quidem voluptas perferendis neque blanditiis eligendi facilis.
+                                                    </p>
+                                                </div>
+                                                <div class="botones d-flex justify content-start flex-wrap w-100">
+                                                    <button class="btn btn-success">Aprobar</button>
+                                                    <button class="btn btn-danger">Eliminar</button>
+                                                    <button class="btn btn-secondary">Bloquear Usuario</button>
+                                                </div>
+                                            </div>
+                                            <div class="comentario d-flex flex-wrap">
+                                                    <div class="foto">
+                                                        <a href="#">
+                                                            <figure>
+                                                                <img src="img/persona1.jpg" width="100" alt="">
+                                                            </figure>
+                                                        </a>
+                                                    </div>
+                                                    <div class="texto">
+                                                        <a href="#">Johann Pino</a>
+                                                        <p>en <a href="#">Mi primer entrada</a></p>
+                                                        <p class="texto-comentario">
+                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, provident quidem voluptas perferendis neque blanditiis eligendi facilis.
+                                                        </p>
+                                                    </div>
+                                                    <div class="botones d-flex justify content-start flex-wrap w-100">
+                                                        <button class="btn btn-success">Aprobar</button>
+                                                        <button class="btn btn-danger">Eliminar</button>
+                                                        <button class="btn btn-secondary">Bloquear Usuario</button>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            </main>
+        </div>
+        
+    </div>
+    
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

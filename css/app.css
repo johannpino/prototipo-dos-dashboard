@@ -1,0 +1,180 @@
+body{
+    background: #f2f2f2;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.barra-lateral{
+    background: #262a43;
+    color: #fff;
+    min-width: 250px;
+    min-height: 100vh;
+    padding: 0;
+}
+.barra-lateral a{
+    color: #fff;
+}
+
+.barra-lateral .logo{
+    background: #0275db;
+    margin-bottom: 2px;
+}
+.barra-lateral .logo h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+}
+.barra-lateral .menu a{
+    display: block;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(255,255,255, 0.1)
+
+}
+.barra-lateral .menu a:hover{
+    background-color: #35ae35;
+    text-decoration: none;
+}
+.barra-lateral .menu a i{
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.main{
+    padding-top: 40px;
+}
+.main .columna{
+    padding: 0 40px;
+}
+.main .titulo{
+    color: #262a34;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.main .widget{
+    margin-bottom: 40px;
+}
+
+.main .widget form input[type="text"],
+.main .widget form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    box-shadow:  0px 2px 2px 0px rgb(0, 0, 0, .2)
+}
+.main .widget form input[type="text"]{
+    font-weight: 400;
+
+}
+.main .widget form textarea{
+    height: 300px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.main .estadistica .contenedor{
+    box-shadow: 0px 1px 1px 0px rgb(0, 0, 0, .2)
+}
+.main .estadistica .caja{
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 40px 20px;
+    flex: 1;
+    text-align: center;
+}
+.main .estadistica .caja h4{
+    margin-bottom: 10px;
+    color: #35ae35;
+}
+.main .estadistica .caja p{
+    margin-bottom: 0px;
+    color: #a8a8a8;
+    font-size: 14px;
+}
+.main .estadistica .caja:first-child{
+    border-right: none;
+}
+.main .estadistica .caja:last-child{
+    border-left: none;
+}
+
+.main .comentarios .contenedor{
+    box-shadow: 0px 0px 2px 0px rgb(0, 0, 0, .2);
+}
+.main .comentarios .comentario{
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.main .comentarios .foto {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.main .comentarios .foto a{
+    display: inline-block;
+    font-size: 14px;
+}
+.main .comentarios .foto img{
+    width: 100%;
+}
+.main .comentarios .texto{
+    flex: 1;
+}
+.main .comentarios .texto-comentario{
+    font-size: 14px;
+}
+.main .comentarios  .botones button{
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 1200px){
+    .barra-lateral{
+        min-width: auto;
+    }
+    .barra-lateral .logo{
+        display: none;
+    }
+    .barra-lateral .menu a span{
+        display: none;
+    }
+    .barra-lateral .menu a i{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .barra-lateral{
+        min-height: auto;
+    }
+    .barra-lateral .menu a{
+        display: inline-block;
+        border: 0;
+    }
+    .main .widget form button{
+        width: 100%;
+    }
+    .main .comentario .foto{
+        width: 30px;
+        height: 30px;
+    }
+    .main .comentario .botones button{
+        width: 100%;
+        margin: 5px auto;
+    }
+}
